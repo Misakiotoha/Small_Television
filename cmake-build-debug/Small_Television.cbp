@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Small_Television"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Small_Television.elf">
+				<Option output="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Small_Television.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Inc"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/OLED/Inc"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/MENU/Inc"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Inc"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Hand/Inc"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 Small_Television.elf"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Small_Television.elf/fast">
+				<Option output="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Small_Television.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Inc"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/OLED/Inc"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/MENU/Inc"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Inc"/>
+					<Add directory="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Hand/Inc"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 Small_Television.elf/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Inc/adc.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Inc/dma.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Inc/gpio.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Inc/i2c.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Inc/main.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Inc/stm32f4xx_it.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Inc/tim.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Src/adc.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Src/dma.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Src/gpio.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Src/i2c.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Src/main.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Src/stm32f4xx_it.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Src/syscalls.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Src/system_stm32f4xx.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Core/Src/tim.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Inc/BuzzerControl.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Inc/DHT11.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Inc/DS3231.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Inc/DoubleButtonControl.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Inc/Funcs.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Inc/SuperVoiceWave.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Inc/TLB_OLED.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Inc/usTIM.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Src/BuzzerControl.cpp">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Src/DHT11.cpp">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Src/DS3231.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Src/DoubleButtonControl.cpp">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Src/Funcs.cpp">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Src/SuperVoiceWave.cpp">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Src/TLB_OLED.cpp">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Core/Src/usTIM.cpp">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Hand/Inc/Cpp_Hand.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Cpp_Hand/Src/Cpp_Hand.cpp">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/CMSIS/LICENSE.txt">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/MENU/Inc/MENU.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/MENU/Src/MENU.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/OLED/Inc/OLED.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/OLED/Inc/OLED_Data.h">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/OLED/Src/OLED.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/OLED/Src/OLED_Data.c">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/STM32F407VGTx_FLASH.ld">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/startup/startup_stm32f407xx.s">
+			<Option target="Small_Television.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/QRS/ClionProjects/Small_Television/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
